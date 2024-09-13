@@ -1,5 +1,5 @@
 <mat-card  style="width: 700px; margin: auto; margin-top: 30px;">
-  <mat-card-content>Add Task</mat-card-content>
+  <mat-card-content>Add Task <div>Current users tasking : {{usercount}}</div></mat-card-content>
   <mat-form-field>
     <mat-label>Task</mat-label>
     <input matInput type="text" name="task" [(ngModel)]="taskname">
